@@ -8,7 +8,7 @@ dns:
 
 hosts: 
   # --- 项目域名 ----
-  'webapi2.qmai.cn': '47.110.175.160'
+  'webapi2.qmai.cn': '47.110.175.16'
 
 proxies:
   - {name: 🇯🇵 免费-日本1-Ver.6, server: eahtr-g01.jp01-0986-vm0.entry.fr0307a.art, port: 21581, type: vmess, uuid: 4940b0fa-a119-37de-ad44-ad295eb233fe, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
