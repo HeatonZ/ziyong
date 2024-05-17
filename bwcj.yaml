@@ -3,13 +3,17 @@ allow-lan: false
 mode: global
 log-level: warning
 
-proxies:
-
-proxy-groups:
-
 dns: 
   use-hosts: true
 
 hosts: 
   # --- 项目域名 ----
   'webapi2.qmai.cn': '47.110.175.16'
+
+proxies:
+
+proxy-groups:
+  - name: 🔰 选择节点
+    type: select
+    proxies:
+      - DIRECT
