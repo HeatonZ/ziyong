@@ -1,0 +1,15 @@
+mixed-port: 7890
+allow-lan: false
+mode: global
+log-level: warning
+
+proxies:
+
+proxy-groups:
+
+dns: 
+  use-hosts: true
+
+hosts: 
+  # --- 项目域名 ----
+  'webapi2.qmai.cn': '47.110.175.16'
