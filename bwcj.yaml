@@ -1,7 +1,7 @@
 mixed-port: 7890
-allow-lan: false
+allow-lan: true
 mode: global
-log-level: warning
+log-level: info
 
 dns: 
   use-hosts: true
